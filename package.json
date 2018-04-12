@@ -6,10 +6,12 @@
   "author": "JeffMinsungKim <jeffminsungkim@gmail.com>",
   "keywords": [
     "vue",
+    "responsive",
     "menu",
     "navigation",
     "vue menu",
-    "template"
+    "template",
+    "element ui"
   ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

@@ -1,0 +1,31 @@
+@import './variables.scss';
+@import './element-ui.scss';
+@import '../views/layouts/components/Navbar/navbar.scss';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-container{
+  min-height: 100%;
+}
+
+.content-container {
+  margin-top: 250px;
+}

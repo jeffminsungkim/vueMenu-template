@@ -1,0 +1,15 @@
+.el-menu-item {
+  padding: 5px 35px;
+}
+
+@mixin sm-menu {
+  .el-menu--horizontal .el-menu-item {
+    text-align: center;
+    float: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid #EAEAEB;
+    font-size: 18px;
+  }
+}
